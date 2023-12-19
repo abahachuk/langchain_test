@@ -1,0 +1,27 @@
+{
+    "name": "Langchain Test",
+    "version": "0.0.1",
+    "description": "Langchain Test",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "lint": "npx eslint ./src --fix"
+    },
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.12",
+        "dotenv": "^16.0.1",
+        "langchain": "^0.0.209",
+        "openai": "^4.23.0"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-plugin-import": "^2.29.1"
+    }
+}
